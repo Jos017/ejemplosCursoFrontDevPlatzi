@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades mas usadas</title>
+</head>
+<style>
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 300px;
+        height: 570px;
+        background: rgba(11, 57, 84, 1);
+        /*Da un radio al borde*/
+        border-radius: 20px;
+        /*Overflow señala como se comporta lo que se sale del margen, en este cso lo oculta */
+        overflow: hidden;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card p {
+        /*Nos permite elegir la alineación de texto*/
+        text-align: center;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: larger;
+        color: rgba(255, 200, 87, 1);
+    }
+    .card p:nth-child(3) {
+        color: rgba(151, 234, 210, 1);
+    }
+</style>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/7249475/pexels-photo-7249475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="wolf" />
+            <p>WOLF</p>
+            <p>Ability</p>
+        </div>
+    </section>
+</body>
+</html>
